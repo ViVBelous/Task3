@@ -13,12 +13,35 @@
         <SelectedOptionId i:nil="true" />
         <Text>Создать активность "Окно сообщения" с любым текстом</Text>
       </AbstractStep>
+      <!-- Первый вариант из HEAD -->
       <AbstractStep z:Id="i4" i:type="ExecutedStep">
         <Childs />
-        <Id>650aaf20-824d-40b8-8bbb-0f53d1072d94</Id>
+        <Id>9e4e6e11-a00b-4ab9-b429-8409e71fbdd3</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
           <PropertyValue z:Id="i5">
+            <PropertyName>Text</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"Вперед, Спартак!"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+      </AbstractStep>
+      <!-- Второй вариант из main -->
+      <AbstractStep z:Id="i6" i:type="ExecutedStep">
+        <Childs />
+        <Id>ca58c86a-40a8-4d2b-b5c6-96d6b50bc780</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i7">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Гооооооооол!!!"</_expression>
@@ -26,7 +49,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i6">
+          <PropertyValue z:Id="i8">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>str_text</_expression>
